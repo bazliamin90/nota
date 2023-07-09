@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Naskh+Arabic|Lateef|Oswald|Martian+Mono|Itim|Inconsolata" rel="stylesheet">
+	<link rel="stylesheet" href="style.cs">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<script src="header.js" type="text/javascript" defer></script>
+	<link href="footer.html" rel="stylesheet">
+
+	<title>Hukum Mad</title>
+
+<style>
+body{
+	margin: 0;
+	font-family: arial;
+}
+#myBtn{
+	font-size: 10px;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 5px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 4px;
+}
+#myBtn:hover {
+	background-color: #555;
+}
+.my-element {
+	margin: 0px 300px;
+	padding: 10px 10px;
+}
+.my1 {
+	margin: 0px 200px;
+}
+.button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #4CAF50;
+	border-radius: 8px;
+}
+.button2 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #f44336;
+	border-radius: 8px;
+}
+
+.button3 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #008CBA;
+	border-radius: 8px;
+}
+audio {
+	width: 250px;
+	height: 30px;
+	color: #000;
+	z-index: 1;
+	position: absolute;
+	border: 2px solid purple;
+	border-radius: 16px;
+}
+img {
+	height: 80px;
+	}
+@media (max-width:768px) {
+	body {
+		margin: 0;
+		font-size: 12px;
+	}
+	.my-element {
+		margin: 0px 160px;
+		padding: 10px 5px;
+	}
+	.my1 {
+		margin: 0px 100px;
+	}
+	.button1 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #4CAF50;
+		border-radius: 8px;
+	}
+
+	.button2 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #f44336;
+		border-radius: 8px;
+	}
+
+	.button3 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #008CBA;
+		border-radius: 8px;
+	}
+	audio {
+		width: 250px;
+		height: 30px;
+		color: #000;
+		z-index: 1;
+		position: absolute;
+		border: 2px solid purple;
+		border-radius: 16px;
+	}
+	img {
+		height: 60px;
+	}
+	}
+@media (max-width:400px) {
+	body {
+		margin: 0;
+		font-size: 11px;
+	}
+	.my-element {
+		margin: 0px 60px;
+		padding: 10px 5px;
+	}
+	.my1 {
+		margin: 0px 10px;
+	}
+	.button1 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #4CAF50;
+		border-radius: 8px;
+	}
+
+	.button2 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #f44336;
+		border-radius: 8px;
+	}
+
+	.button3 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #008CBA;
+		border-radius: 8px;
+	}
+	audio {
+		width: 250px;
+		height: 30px;
+		color: #000;
+		z-index: 1;
+		position: absolute;
+		border: 2px solid purple;
+		border-radius: 16px;
+	}
+	img {
+		height: 30px;
+	}
+	}
+	</style>
+</head>
+<body>
+	<header-component></header-component>
+	
+	<h3 class="my1" style="text-align: center; padding-top: 20px;">HUKUM MAD</h3>
+	
+	<ol class="my1">
+	<li>
+	<p><b><mark>Mad Asli [2 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf Berbaris<br>(selain hamzah)</button> + <button class="button button2">Huruf<br>Mad</button>
+	<br><br><br>[Al-Kahfi 18:8]
+	<br><img src="./img/alkahfi18-8.png">
+	<br><audio controls>
+		<source src="./audio/alkahfi18-8.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Lin [2/4/6 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Baris Atas</button> + <button class="button button2">Huruf<br>Mad</button> + <button class="button button3">Huruf<br>Mati Waqaf</button>
+	<br><br><br>[Al-Balad 90:10]
+	<br><img src="./img/albalad90-10.png">
+	<br><audio controls>
+		<source src="./audio/albalad90-10.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad 'Aridh Lissukun [6/4/2 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf Berbaris<br>(ikut huruf mad)</button> + <button class="button button2">Huruf<br>Mad</button> + <button class="button button3">Huruf<br>Mati Waqaf</button>
+	<br><br><br>[Al-Fajr 89:17]
+	<br><img src="./img/alfajr89-17.png">
+	<br><audio controls>
+		<source src="./audio/alfajr89-17.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Silah Thowilah [4/5 harakat]</mark></b>
+	<br><br><button class="button button1">Ha Dhomir</button> + <button class="button button2">Huruf Mad Kecil</button> + <button class="button button3">Hamzah</button>
+	<br><br><br>[Al-Muthoffifin 83:12]
+	<br><img src="./img/almuthoffifin83-12.png">
+	<br><audio controls>
+		<source src="./audio/almuthoffifin83-12.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[Al-Baqarah 2:131]
+	<br><img src="./img/albaqarah2-131.png">
+	<br><audio controls>
+		<source src="./audio/albaqarah2-131.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Silah Qasirah [2 harakat]</mark></b>
+	<br><br><button class="button button1">Ha<br>Dhomir</button> + <button class="button button2">Huruf<br>Mad Kecil</button> + <button class="button button3">Huruf<br>Selain Hamzah</button>
+	<br><br><br>[Al-Masad 114:4]
+	<br><img src="./img/almasad111-4.png">
+	<br><audio controls>
+		<source src="./audio/almasad111-4.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[Al-'Adiyat 100:6]
+	<br><img src="./img/aladiyat100-6.png">
+	<br><audio controls>
+		<source src="./audio/aladiyat100-6.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Badal [2 harakat]</mark></b>
+	<br><br><button class="button button1">Hamzah Berbaris</button> + <button class="button button2">Huruf Mad</button>
+	<br><br><br>[Al-Baqarah 2:53]
+	<br><img src="./img/albaqarah2-53.png">
+	<br><audio controls>
+		<source src="./audio/albaqarah2-53.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[An-Nur 24:37]
+	<br><img src="./img/annur24-37-a.png">
+	<br><img src="./img/annur24-37-b.png">
+	<br><audio controls>
+		<source src="./audio/annur24-37.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[Al-Bayyinah 98:4]
+	<br><img src="./img/albayyinah98-4.png">
+	<br><audio controls>
+		<source src="./audio/albayyinah98-4.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[Al-Ahqaf 46:4]
+	<br><img src="./img/alahqaf46-4-a.png">
+	<br><img src="./img/alahqaf46-4-b.png">
+	<br><img src="./img/alahqaf46-4-c.png">
+	<br><audio controls>
+		<source src="./audio/alahqaf46-4.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Lazim Kalimi Mukhaffaf [6 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Mad</button> + <button class="button button2">Huruf Mati Asli<br>(tanpa idgham)</button>
+	<br><br><br>[Yunus 10:51]
+	<br><img src="./img/yunus10-51.png">
+	<br><audio controls>
+		<source src="./audio/yunus10-51.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[Yunus 10:91]
+	<br><img src="./img/yunus10-91.png">
+	<br><audio controls>
+		<source src="./audio/yunus10-91.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Lazim Kalimi Muthaqqal [6 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Mad</button> + <button class="button button2">Huruf Mati Asli<br>(ada idgham)</button>
+	<br><br><br>[Al-Fatihah 1:7]
+	<br><img src="./img/alfatihah1-7-a.png">
+	<br><img src="./img/alfatihah1-7-b.png">
+	<br><audio controls>
+		<source src="./audio/alfatihah1-7.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[Az-Zumar 39:64]
+	<br><img src="./img/azzumar39-64.png">
+	<br><audio controls>
+		<source src="./audio/azzumar39-64.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Lazim Harfi Mukhaffaf [6 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Mad</button> + <button class="button button2">Huruf Mati Asli<br>(tiada idgham)</button>
+	<br><br><br>[Yunus 10:1]
+	<br><img src="./img/yunus10-1.png">
+	<br><audio controls>
+		<source src="./audio/yunus10-1.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>Bagi contoh di atas, cara ejaan huruf <b>Lam</b> ialah:
+	<br><br><button class="button button1">Lam</button> + <button class="button button2">Alif</button> + <button class="button button3">Mim Mati</button>
+	<br><br>- Ada huruf mad (alif) bertemu dengan huruf mati (mim).
+	<br>- Mad lazim harfi berlaku pada huruf muqatto'ah, di permulaan surah.
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Lazim Harfi Muthaqqal [6 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Mad</button> + <button class="button button2">Huruf Mati Asli<br>(ada idgham)</button>
+	<br><br><br>[Asy-Syu'ara' 26:1]
+	<br><img src="./img/asysyuara26-1.png">
+	<br><audio controls>
+		<source src="./audio/asysyuara26-1.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>Bagi contoh di atas, cara ejaan huruf <b>Sin</b> ialah:
+	<br><br><button class="button button1">Sin</button> + <button class="button button2">Ya</button> + <button class="button button3">Nun Mati</button>
+	<br><br>- Ada huruf mad (Ya) bertemu dengan huruf mati (nun).
+	<br>- Nun mati tersebut bertemu pula dengan huruf <b>mim</b> selepasnya, maka terjadi idgham bighunnah (dengung 2 harakat).
+	<br>- Mad lazim harfi berlaku pada huruf muqatto'ah, di permulaan surah.
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Wajib Muttasil [4/5 harakat. 6 harakat jika waqaf]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Mad</button> + <button class="button button2">Hamzah<br>(dalam 1 kalimah)</button>
+	<br><br><br>[An-Naba' 78:36]
+	<br><img src="./img/annaba78-36.png">
+	<br><audio controls>
+		<source src="./audio/annaba78-36.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Jaiz Munfasil [4/5 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Mad</button> + <button class="button button2">Hamzah<br>(dalam kalimah<br>seterusnya)</button>
+	<br><br><br>[An-Nazi'at 79:18]
+	<br><img src="./img/annaziat79-18.png">
+	<br><audio controls>
+		<source src="./audio/annaziat79-18.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	
+	<br><br><br>
+	<hr width="80%">
+	<li>
+	<p><b><mark>Mad Tamkin [2 harakat]</mark></b>
+	<br><br><button class="button button1">Huruf<br>Mad</button> + <button class="button button2">Huruf Sama<br>Dengannya</button>
+	<br><br><br>[An-Nas 114:5]
+	<br><img src="./img/annas114-5.png">
+	<br><audio controls>
+		<source src="./audio/annas114-5.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br>[Ali-'Imran 3:200]
+	<br><img src="./img/aliimran3-200-a.png">
+	<br><img src="./img/aliimran3-200-b.png">
+	<br><audio controls>
+		<source src="./audio/aliimran3-200.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<br><br><br><p>- Dinamakan juga mad tamkin pada keadaan berikut:
+	<br><br><button class="button button1">Huruf Ya<br>Bersabdu<br>(baris bawah)</button> + <button class="button button2">Ya Mati<br>(ya kecil)</button>
+	<br><br><br>[Ali-'Imran 3:80]
+	<br><img src="./img/aliimran3-80-a.png">
+	<br><img src="./img/aliimran3-80-b.png">
+	<br><audio controls>
+		<source src="./audio/aliimran3-80.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	</p>
+	</li>
+	</ol>
+	
+	<a href="#" onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></a>
+
+<br><br><br><br>
+</body>
+</html>
