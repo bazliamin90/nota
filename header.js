@@ -162,7 +162,7 @@ headerTemplate.innerHTML = `
   </header>
 
 	<img class="link" src="https://img.icons8.com/color/48/facebook.png" onclick="window.open('https://www.facebook.com/baz.li.3', '_blank')">
-	<img class="link2" src="https://img.icons8.com/color/48/whatsapp--v1.png" onclick="window.open('https://wa.me/01165402468', '_blank')">
+	<img class="link2" src="https://img.icons8.com/color/48/whatsapp--v1.png" onclick="window.open('https://wa.me/601165402468', '_blank')">
 `;
 
 // Get the button
